@@ -1,0 +1,35 @@
+
+.header{
+    padding: 44px 0;
+    
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__link{
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; /* 125% */
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+    }
+}
+
+/* header-mobile*/
+
+.header{
+    &__link{
+        color: #333D4B;
+        text-align: center;
+        font-family: "Fraunces 9pt";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; /* 133.333% */
+    }
+}

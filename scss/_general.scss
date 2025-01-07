@@ -36,6 +36,7 @@ ul{
     align-items: center;
     position: relative;
     z-index: 1000;
+   
   }
 
 .header__list{
@@ -60,21 +61,28 @@ ul{
   }
   
   @media screen and (max-width: 768px) {
+   
     .hamburger {
       display: flex;
     }
+
+   
   
     .header__list {
       display: flex;
       flex-direction: column;
+      align-items: center;
       position: absolute;
-      top: 60px;
-      width: 200px;
+      top: 80px;
+      width: 100%;
       padding: 1rem;
       border-radius: 0 0 0.5rem 0.5rem;
       transform: translateY(-20px);
       opacity: 0;
       visibility: hidden;
+      background: linear-gradient(180deg, rgba(254, 252, 247, 0.50) 0%, #FEFCF7 55.94%);
+      padding-bottom: 50%;
+      
     }
   
     .header__list.active {
