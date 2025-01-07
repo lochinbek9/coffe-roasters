@@ -1,5 +1,34 @@
 
 
-h1{
-    color: green;
+.hero{
+    &__container{
+        padding: 117px 0;
+        padding-left: 86px;
+        background-image: url(../img/hero-bg.png);
+        background-repeat: no-repeat;
+    }
+
+    &__left{
+        max-width: 493px;
+    }
+
+    &__title{
+        color: #FEFCF7;
+        font-family: "Fraunces 9pt";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px; /* 100% */
+    }
+
+    &__text{
+        color: #FEFCF7;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        opacity: 0.8;
+        padding-bottom: 56px;
+    }
 }
