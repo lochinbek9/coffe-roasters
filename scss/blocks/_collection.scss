@@ -1,18 +1,17 @@
 
 .collection{
     &__title{
-        
         top: 80px;
         position: relative;
         z-index: -100;
         padding: 50px 0;
-        color: #f00000;
+        color: #fff;
         text-align: center;
         font-family: "Fraunces";
         font-size: 196px;
         font-style: normal;
         font-weight: 900;
-        line-height: 72px;
+        line-height: 172px;
         opacity: 0.5032;
         background: linear-gradient(360deg, rgba(254, 252, 247, 0.00) 0%, #918b7c 100%);
         -webkit-background-clip: text;
@@ -38,7 +37,7 @@
         font-size: 24px;
         font-style: normal;
         font-weight: 900;
-        line-height: 100px;/* /z133.333% */
+        // line-height: 100px;/* /z133.333% */
     }
 
     &__item p{
@@ -54,12 +53,29 @@
 
 /* collection-mobile*/
 
-@media only screen and(max-width:1175px) {
+@media(max-width:1175px) {
     .collection__list{
-        flex-direction: column;
-        flex-wrap: wrap;
+        display: block;
     }
     .collection__item{
+        gap: 36px;
+        max-height: 193px;
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    .collection__item div{   
+        width: 100%;
+    }
+
+    .collection__item--title{
+        text-align: left;
+    }
+    .collection__item p{
+        width: 282px;
+        text-align: left;
+        padding-bottom: 80px;
     }
 }
