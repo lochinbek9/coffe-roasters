@@ -38,7 +38,6 @@
         margin-top: 120px;
         display: flex;
         align-items: center;
-        // flex-wrap: wrap;
         gap: 32px;
     }
     
@@ -133,6 +132,10 @@
         max-height: 904px;
         padding-bottom: 300px;
         flex-shrink: 0;
+    }
+
+    .choose__text{
+        padding-bottom: 64px;
     }
     .choose__cards{
         flex-direction: column;

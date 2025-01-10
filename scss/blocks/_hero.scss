@@ -7,6 +7,8 @@
         background-image: url(../img/hero-bg.png);
         background-repeat: no-repeat;
         border-radius: 10px;
+        height: auto;
+        max-height: 100%;
     }
 
     &__left{
@@ -31,5 +33,19 @@
         line-height: 26px; /* 162.5% */
         opacity: 0.8;
         padding-bottom: 56px;
+    }
+}
+
+@media(max-width:768px){
+    .hero__container{
+        padding-bottom: 303px;
+    }
+
+    .hero__title{
+        font-size: 48px;
+    }
+
+    .hero__text{
+        font-size: 15px;
     }
 }
