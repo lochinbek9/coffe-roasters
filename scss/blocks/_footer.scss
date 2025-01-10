@@ -1,0 +1,37 @@
+
+
+.footer{
+    &__container{
+        padding: 47px 85px;
+        background: #2C343E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__list{
+        display: flex;
+        gap: 33px;
+    }
+
+    &__link{
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; /* 125% */
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        transition: color 0.3s ease;
+
+        &:hover{
+            color: #fff;
+        }
+    }
+    
+    .footer__social{
+        display: flex;
+        gap: 20px;
+    }
+}

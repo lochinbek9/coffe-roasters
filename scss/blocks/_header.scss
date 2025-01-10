@@ -17,6 +17,11 @@
         line-height: 15px; /* 125% */
         letter-spacing: 0.923px;
         text-transform: uppercase;
+        transition: color 0.3s ease;
+
+        &:hover{
+            color: #333D4B;
+        }
     }
 }
 

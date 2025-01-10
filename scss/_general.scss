@@ -31,10 +31,9 @@ ul{
 .site-btn{
   width: 217px;
   height: 56px;
-  flex-shrink: 0;
   border-radius: 6px;
   background: #0E8784;
-  padding-top: 12px;
+  padding-top: 7px;
   color: #FEFCF7;
   text-align: center;
   font-family: "Fraunces";
@@ -42,6 +41,16 @@ ul{
   font-style: normal;
   font-weight: 900;
   line-height: 25px; /* 138.889% */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  &:hover{
+    background: #66D2CF;    
+  }
+
+  &:active{
+    background: #E2DEDB;
+  }
 }
 
 
