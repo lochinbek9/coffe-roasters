@@ -326,6 +326,8 @@ html {
 
 img {
   display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
 a {
@@ -819,6 +821,7 @@ ul {
   padding: 137px 0 137px 85px;
   background-image: url(../../img/about-us-bg.png);
   background-repeat: no-repeat;
+  background-position: center center;
 }
 .abouthero__left {
   max-width: 445px;
@@ -850,27 +853,34 @@ ul {
   }
   .abouthero__text {
     font-size: 14px; /* 146.67% */
-    width: 398px;
+    max-width: 398px;
   }
 }
 /* abouthero-mobile */
 @media (max-width: 800px) {
   .abouthero__container {
-    padding: 137px 0 137px 32px;
+    padding: 118px 0px 118px 58px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-image: url(../../img/abouttablet-bg.png);
     background-size: 100% 100%;
   }
   .abouthero__left {
     max-width: 100%;
+    text-align: center;
   }
   .abouthero__title {
     font-size: 36px;
+    text-align: center;
   }
   .abouthero__text {
     font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
+  .abouthero__container {
+    padding: 111px 24px 87px 24px;
   }
 }
 .commitment {
@@ -883,6 +893,8 @@ ul {
 }
 .commitment__img {
   border-radius: 8px;
+  max-width: 485px;
+  max-height: 606px;
 }
 .commitment__box {
   max-width: 540px;
@@ -924,6 +936,8 @@ ul {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    background-position: center center;
+    background-size: cover;
   }
   .commitment__box {
     max-width: 100%;
@@ -934,6 +948,60 @@ ul {
     text-align: center;
   }
   .commitment__box--desc {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+.quality {
+  padding-top: 244px;
+}
+.quality__container {
+  padding: 0 56px 0 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: #2C343E;
+}
+.quality__box {
+  max-width: 540px;
+  padding: 0;
+}
+.quality__title {
+  color: #FEFCF7;
+  font-family: "Fraunces";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px; /* 120% */
+}
+.quality__text {
+  padding-top: 32px;
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.quality__img {
+  position: relative;
+  bottom: 136px;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1100px) {
+  .quality__container {
+    padding: 67px 0px;
+    flex-direction: column-reverse;
+  }
+  .quality__title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .quality__text {
     font-size: 14px;
     text-align: center;
   }

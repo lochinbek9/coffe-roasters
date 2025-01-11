@@ -9,6 +9,8 @@
 
     &__img{
         border-radius: 8px;
+        max-width: 485px;
+        max-height: 606px;
     }
 
     &__box{
@@ -50,6 +52,8 @@
         max-width: 100%;
         padding-left: 79px;
     }
+
+
 }
 
 /* commitment-mobile */
@@ -60,6 +64,8 @@
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
+        background-position: center center;
+        background-size: cover;
        
     }
 
