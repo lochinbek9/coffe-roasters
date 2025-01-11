@@ -3,7 +3,6 @@
 .footer{
 
     &__container{
-        max-width: 100%;
         padding: 47px 85px;
         background: #2C343E;
         display: flex;
@@ -52,10 +51,25 @@
 @media(max-width: 820px){
     .footer__container{
         flex-direction: column;
+        max-width: 100%;
+
     }
 
     .footer__list{
         padding-top: 32px;
         padding-bottom: 65px;
+    }
+}
+
+@media(max-width: 470px){
+    .footer__container{
+        padding: 47px 16px;
+    }
+
+    .footer__list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
     }
 }

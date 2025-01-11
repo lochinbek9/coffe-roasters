@@ -38,7 +38,12 @@
 
 @media(max-width:768px){
     .hero__container{
-        padding-bottom: 303px;
+        padding: 118px 20px 118px 58px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-position: center center;
+        background-size: 689px 500px;
     }
 
     .hero__title{
