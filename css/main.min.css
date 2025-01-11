@@ -646,6 +646,11 @@ ul {
   background: #0E8784;
   text-align: center;
 }
+.choose__card img {
+  width: 71px;
+  height: 72px;
+  flex-shrink: 0;
+}
 .choose__card--title {
   padding: 56px 0 24px;
   color: #FEFCF7;
@@ -1013,6 +1018,11 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.footer__logo {
+  width: 236px;
+  height: 26px;
+  flex-shrink: 0;
 }
 .footer__list {
   display: flex;
