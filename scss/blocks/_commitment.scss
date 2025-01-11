@@ -1,0 +1,80 @@
+
+.commitment{
+    padding-top: 144px;
+    &__container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__img{
+        border-radius: 8px;
+    }
+
+    &__box{
+        max-width: 540px;
+        padding: 0;
+
+        &--title{
+            color: #333D4B;
+            font-family: "Fraunces";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 48px; /* 120% */
+        }
+
+        &--desc{
+            padding-top: 32px;
+            color: #333D4B;
+            font-family: Barlow;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */
+        }
+    }
+}
+
+
+
+/* commitment-tablet */
+
+@media (max-width: 1175px) {
+    .commitment__container {
+       display: flex;
+       justify-content: space-around;
+    }
+
+    .commitment__box {
+        max-width: 100%;
+        padding-left: 79px;
+    }
+}
+
+/* commitment-mobile */
+
+@media (max-width: 800px) {
+    .commitment__container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+
+    .commitment__box {
+        max-width: 100%;
+        padding-left: 32px;
+    }
+
+    .commitment__box--title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .commitment__box--desc {
+        font-size: 14px;
+        text-align: center;
+    }
+}
