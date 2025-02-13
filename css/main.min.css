@@ -1075,6 +1075,99 @@ ul {
     text-align: center;
   }
 }
+.plan__hero__container {
+  padding: 134px 0;
+  padding-left: 85px;
+  background-image: url(../../img/plan-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  border-radius: 20px;
+}
+.plan__hero__left {
+  max-width: 485px;
+}
+.plan__hero__title {
+  color: #FEFCF7;
+  font-family: "Fraunces";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px; /* 100% */
+}
+.plan__hero__text {
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.plan__works {
+  padding-top: 100px;
+}
+.plan__works__container {
+  border-radius: 10px;
+  background: #2C343E;
+}
+.plan__works__img {
+  max-width: 760px;
+  width: 100%;
+  height: 30px;
+}
+.plan__works__cards {
+  padding-top: 182px;
+  display: flex;
+  justify-content: space-between;
+}
+.plan__works__card {
+  max-width: 285px;
+}
+.plan__works .plan__works__card--title {
+  color: #FDD6BA;
+  font-family: "Fraunces";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px; /* 100% */
+}
+.plan__works .plan__works__card--subtitle {
+  padding: 43px 0;
+  color: #FEFCF7;
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px; /* 112.5% */
+}
+.plan__works .plan__works__card--text {
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+/* works-tablet */
+/* works-mobile */
+@media (max-width: 900px) {
+  .plan__works__container {
+    padding-top: 280px;
+  }
+  .plan__works__title {
+    text-align: center;
+  }
+  .plan__works__cards {
+    padding-top: 80px;
+    padding-bottom: 55px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+  }
+}
 .footer__container {
   padding: 47px 85px;
   background: #2C343E;
