@@ -2,7 +2,7 @@
 .collection{
     padding-top: 136px;
     padding-bottom: 190px;
-    background-image: url(../../img/collection-bg.png);
+    // background-image: url(../../img/collection-bg.png);
     background-size: auto auto;
     background-repeat: no-repeat;
     background-position: top 16px center;
@@ -43,6 +43,10 @@
 /* collection-tablet*/
 
 @media(max-width:1175px) {
+    .collection__container{
+        background-size: 100% 100%;
+    }
+
     .collection__list{
         display: flex;
         flex-direction: column;    
